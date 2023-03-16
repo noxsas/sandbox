@@ -27,7 +27,7 @@ services:
     volumes:
       - type: bind
         source: ../project
-        target: /data
+        target: /project
 
   indexer:
     container_name: "${INDEXER_CONTAINER:-algorand-sandbox-indexer}"
